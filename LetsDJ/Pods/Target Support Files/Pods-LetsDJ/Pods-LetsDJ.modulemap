@@ -1,0 +1,6 @@
+framework module Pods_LetsDJ {
+  umbrella header "Pods-LetsDJ-umbrella.h"
+
+  export *
+  module * { export * }
+}

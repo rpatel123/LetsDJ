@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C87728F21DEFCAC200C0D6F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87728F11DEFCAC100C0D6F9 /* AppDelegate.swift */; };
+		C87728F41DEFCAC200C0D6F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87728F31DEFCAC200C0D6F9 /* ViewController.swift */; };
+		C87728F71DEFCAC200C0D6F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87728F51DEFCAC200C0D6F9 /* Main.storyboard */; };
+		C87728FA1DEFCAC200C0D6F9 /* LetsDJ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C87728F81DEFCAC200C0D6F9 /* LetsDJ.xcdatamodeld */; };
+		C87728FC1DEFCAC200C0D6F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87728FB1DEFCAC200C0D6F9 /* Assets.xcassets */; };
+		C87728FF1DEFCAC200C0D6F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87728FD1DEFCAC200C0D6F9 /* LaunchScreen.storyboard */; };
+		C8EF0BA41DF630D8002CC5C2 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EF0BA31DF630D8002CC5C2 /* AudioViewController.swift */; };
+		C8EF0BA61DF7BB18002CC5C2 /* PlaylistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EF0BA51DF7BB18002CC5C2 /* PlaylistTableViewController.swift */; };
+		C8EF0BA81DF7D545002CC5C2 /* AudioFinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EF0BA71DF7D545002CC5C2 /* AudioFinalViewController.swift */; };
+		F8F84B3730F28AAD65000160 /* Pods_LetsDJ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F6935B250FA230E5D6DC47 /* Pods_LetsDJ.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24F6935B250FA230E5D6DC47 /* Pods_LetsDJ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetsDJ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69BA3ED878C9DD154AF80ADD /* Pods-LetsDJ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsDJ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LetsDJ/Pods-LetsDJ.debug.xcconfig"; sourceTree = "<group>"; };
+		C87728EE1DEFCAC100C0D6F9 /* LetsDJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsDJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87728F11DEFCAC100C0D6F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C87728F31DEFCAC200C0D6F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C87728F61DEFCAC200C0D6F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C87728F91DEFCAC200C0D6F9 /* LetsDJ.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LetsDJ.xcdatamodel; sourceTree = "<group>"; };
+		C87728FB1DEFCAC200C0D6F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C87728FE1DEFCAC200C0D6F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C87729001DEFCAC200C0D6F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8EF0BA31DF630D8002CC5C2 /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
+		C8EF0BA51DF7BB18002CC5C2 /* PlaylistTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewController.swift; sourceTree = "<group>"; };
+		C8EF0BA71DF7D545002CC5C2 /* AudioFinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioFinalViewController.swift; sourceTree = "<group>"; };
+		DC879E65393F073A71ACA70C /* Pods-LetsDJ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsDJ.release.xcconfig"; path = "Pods/Target Support Files/Pods-LetsDJ/Pods-LetsDJ.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C87728EB1DEFCAC100C0D6F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F84B3730F28AAD65000160 /* Pods_LetsDJ.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A7683B29B848FAD7285BCD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24F6935B250FA230E5D6DC47 /* Pods_LetsDJ.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C87728E51DEFCAC100C0D6F9 = {
+			isa = PBXGroup;
+			children = (
+				C87728F01DEFCAC100C0D6F9 /* LetsDJ */,
+				C87728EF1DEFCAC100C0D6F9 /* Products */,
+				D5FADC57C030240594238A9E /* Pods */,
+				3A7683B29B848FAD7285BCD8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C87728EF1DEFCAC100C0D6F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C87728EE1DEFCAC100C0D6F9 /* LetsDJ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C87728F01DEFCAC100C0D6F9 /* LetsDJ */ = {
+			isa = PBXGroup;
+			children = (
+				C87728F11DEFCAC100C0D6F9 /* AppDelegate.swift */,
+				C87728F31DEFCAC200C0D6F9 /* ViewController.swift */,
+				C87728F51DEFCAC200C0D6F9 /* Main.storyboard */,
+				C8EF0BA71DF7D545002CC5C2 /* AudioFinalViewController.swift */,
+				C8EF0BA51DF7BB18002CC5C2 /* PlaylistTableViewController.swift */,
+				C8EF0BA31DF630D8002CC5C2 /* AudioViewController.swift */,
+				C87728FB1DEFCAC200C0D6F9 /* Assets.xcassets */,
+				C87728FD1DEFCAC200C0D6F9 /* LaunchScreen.storyboard */,
+				C87729001DEFCAC200C0D6F9 /* Info.plist */,
+				C87728F81DEFCAC200C0D6F9 /* LetsDJ.xcdatamodeld */,
+			);
+			path = LetsDJ;
+			sourceTree = "<group>";
+		};
+		D5FADC57C030240594238A9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69BA3ED878C9DD154AF80ADD /* Pods-LetsDJ.debug.xcconfig */,
+				DC879E65393F073A71ACA70C /* Pods-LetsDJ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C87728ED1DEFCAC100C0D6F9 /* LetsDJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87729031DEFCAC200C0D6F9 /* Build configuration list for PBXNativeTarget "LetsDJ" */;
+			buildPhases = (
+				121C30C4D6B8F270D534BF32 /* [CP] Check Pods Manifest.lock */,
+				C87728EA1DEFCAC100C0D6F9 /* Sources */,
+				C87728EB1DEFCAC100C0D6F9 /* Frameworks */,
+				C87728EC1DEFCAC100C0D6F9 /* Resources */,
+				953A659D6FEA30D752F78246 /* [CP] Embed Pods Frameworks */,
+				2E1A1B1985257DDD48D880F8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetsDJ;
+			productName = LetsDJ;
+			productReference = C87728EE1DEFCAC100C0D6F9 /* LetsDJ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C87728E61DEFCAC100C0D6F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Milan Saxena";
+				TargetAttributes = {
+					C87728ED1DEFCAC100C0D6F9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FS8XX7M93Q;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C87728E91DEFCAC100C0D6F9 /* Build configuration list for PBXProject "LetsDJ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C87728E51DEFCAC100C0D6F9;
+			productRefGroup = C87728EF1DEFCAC100C0D6F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C87728ED1DEFCAC100C0D6F9 /* LetsDJ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C87728EC1DEFCAC100C0D6F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87728FF1DEFCAC200C0D6F9 /* LaunchScreen.storyboard in Resources */,
+				C87728FC1DEFCAC200C0D6F9 /* Assets.xcassets in Resources */,
+				C87728F71DEFCAC200C0D6F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		121C30C4D6B8F270D534BF32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2E1A1B1985257DDD48D880F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LetsDJ/Pods-LetsDJ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		953A659D6FEA30D752F78246 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LetsDJ/Pods-LetsDJ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C87728EA1DEFCAC100C0D6F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8EF0BA61DF7BB18002CC5C2 /* PlaylistTableViewController.swift in Sources */,
+				C87728FA1DEFCAC200C0D6F9 /* LetsDJ.xcdatamodeld in Sources */,
+				C8EF0BA81DF7D545002CC5C2 /* AudioFinalViewController.swift in Sources */,
+				C8EF0BA41DF630D8002CC5C2 /* AudioViewController.swift in Sources */,
+				C87728F41DEFCAC200C0D6F9 /* ViewController.swift in Sources */,
+				C87728F21DEFCAC200C0D6F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C87728F51DEFCAC200C0D6F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87728F61DEFCAC200C0D6F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C87728FD1DEFCAC200C0D6F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87728FE1DEFCAC200C0D6F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C87729011DEFCAC200C0D6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C87729021DEFCAC200C0D6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C87729041DEFCAC200C0D6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69BA3ED878C9DD154AF80ADD /* Pods-LetsDJ.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = FS8XX7M93Q;
+				INFOPLIST_FILE = LetsDJ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mdev.LetsDJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C87729051DEFCAC200C0D6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC879E65393F073A71ACA70C /* Pods-LetsDJ.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = FS8XX7M93Q;
+				INFOPLIST_FILE = LetsDJ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mdev.LetsDJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C87728E91DEFCAC100C0D6F9 /* Build configuration list for PBXProject "LetsDJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87729011DEFCAC200C0D6F9 /* Debug */,
+				C87729021DEFCAC200C0D6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87729031DEFCAC200C0D6F9 /* Build configuration list for PBXNativeTarget "LetsDJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87729041DEFCAC200C0D6F9 /* Debug */,
+				C87729051DEFCAC200C0D6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C87728F81DEFCAC200C0D6F9 /* LetsDJ.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C87728F91DEFCAC200C0D6F9 /* LetsDJ.xcdatamodel */,
+			);
+			currentVersion = C87728F91DEFCAC200C0D6F9 /* LetsDJ.xcdatamodel */;
+			path = LetsDJ.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C87728E61DEFCAC100C0D6F9 /* Project object */;
+}
